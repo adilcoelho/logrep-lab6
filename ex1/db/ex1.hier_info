@@ -1,0 +1,103 @@
+|ex1
+clk => debounce:debounce_inc.clk
+clk => numero[0].CLK
+clk => numero[1].CLK
+clk => numero[2].CLK
+clk => numero[3].CLK
+clk => numero[4].CLK
+clk => apertado.CLK
+clk => debounce:debounce_dec.clk
+dec => debounce:debounce_dec.button
+inc => debounce:debounce_inc.button
+ssd_saida[0] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[1] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[2] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[3] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[4] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[5] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[6] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[7] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[8] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[9] <= <GND>
+ssd_saida[10] <= Equal31.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[11] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[12] <= Equal31.DB_MAX_OUTPUT_PORT_TYPE
+ssd_saida[13] <= ssd_saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex1|debounce:debounce_inc
+button => process_0.IN1
+clk => saida.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+clk => counter[26].CLK
+clk => counter[27].CLK
+clk => counter[28].CLK
+clk => counter[29].CLK
+clk => counter[30].CLK
+clk => counter[31].CLK
+debounced_out <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex1|debounce:debounce_dec
+button => process_0.IN1
+clk => saida.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+clk => counter[26].CLK
+clk => counter[27].CLK
+clk => counter[28].CLK
+clk => counter[29].CLK
+clk => counter[30].CLK
+clk => counter[31].CLK
+debounced_out <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
